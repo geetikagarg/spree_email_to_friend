@@ -23,22 +23,7 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = false
 
-  s.add_dependency 'spree_core', '~> 2.4.0'
   s.add_dependency 'recaptcha', '>= 0.3.1'
 
   s.add_development_dependency 'rspec-rails', '~> 3.1.0'
-  s.add_development_dependency 'sqlite3', '~> 1.3.8'
-  s.add_development_dependency 'factory_girl', '~> 4.5'
-  s.add_development_dependency 'capybara', '~> 2.4.4'
-  s.add_development_dependency 'selenium-webdriver', '>= 2.44.0'
-  s.add_development_dependency 'poltergeist', '~> 1.5.0'
-  s.add_development_dependency 'shoulda-matchers', '~> 2.7'
-  s.add_development_dependency 'email_spec', '>= 1.6.0'
-  s.add_development_dependency 'simplecov', '~> 0.8.2'
-  s.add_development_dependency 'database_cleaner', '~> 1.2.0'
-  s.add_development_dependency 'coffee-rails', '~> 4.0.0'
-  s.add_development_dependency 'sass-rails', '~> 4.0.0'
-  s.add_development_dependency 'ffaker', '>= 1.25.0'
-  s.add_development_dependency 'guard-rspec', '>= 4.3.1'
-  s.add_development_dependency 'pry-rails', '>= 0.3.2'
 end
